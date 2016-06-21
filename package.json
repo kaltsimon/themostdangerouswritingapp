@@ -1,0 +1,29 @@
+{
+  "name": "themostdangerouswritingapp",
+  "version": "1.0.0",
+  "description": "The Most Dangerous Writing App",
+  "main": "run.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaltsimon/themostdangerouswritingapp"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "private": true,
+  "author": "Simon Kalt",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/kaltsimon/themostdangerouswritingapp/issues"
+  },
+  "homepage": "https://github.com/kaltsimon/themostdangerouswritingapp#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}

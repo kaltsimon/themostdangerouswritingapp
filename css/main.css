@@ -38,7 +38,7 @@ body {
     display: inline-block;
     width: 19px;
     height: 19px;
-    background: url(favicon.png) top left no-repeat white;
+    background: url(../favicon.png) top left no-repeat white;
     background-size: 19px 19px;
     margin-right: 5px;
     margin-top: -2px;
@@ -93,7 +93,7 @@ body {
 #status, #status_lower
     {
     color: rgba(54, 48, 48, .25);
-    font-family: Inconsolata, "Courier New", Courier, monospace;        
+    font-family: Inconsolata, "Courier New", Courier, monospace;
     font-size: 16pt;
     opacity: 0;
     height: 20px;
@@ -103,7 +103,7 @@ body {
     {
     display: none;
     background: none;
-    font-family: Inconsolata, "Courier New", Courier, monospace;        
+    font-family: Inconsolata, "Courier New", Courier, monospace;
     font-size: 16pt;
     text-decoration: none;
     padding: 5px 10px;
@@ -171,7 +171,7 @@ body {
     bottom: -45px;
     width: 32px;
     height: 32px;
-    background: url(bird.png) center center no-repeat;
+    background: url(../bird.png) center center no-repeat;
     background-size: 100%;
     }
 #help
@@ -184,7 +184,7 @@ body {
     /*display: none;*/
     }
 
-#help a 
+#help a
     {
     color: #383030;
     text-decoration: underline;

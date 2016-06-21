@@ -6,32 +6,10 @@
     <meta name="description" content="Write. Don't stop. If you stop typing for more than five seconds, all progress will be lost." />
     <link rel="author" href="https://twitter.com/maebert"/>
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@maebert">
-    <meta name="twitter:title" content="The Most Dangerous Writing App">
-    <meta name="twitter:description" content="Write. Don't stop. If you stop typing for more than five seconds, all progress will be lost.">
-    <meta name="twitter:creator" content="@maebert">
-    <meta name="twitter:image" content="http://www.themostdangerouswritingapp.com/banner.png">
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="The Most Dangerous Writing App" />
-    <meta property="og:type" content="product" />
-    <meta property="og:url" content="http://www.themostdangerouswritingapp.com/" />
-    <meta property="og:image" content="http://www.themostdangerouswritingapp.com/banner.png" />
-    <meta property="og:description" content="Write. Don't stop. If you stop typing for more than five seconds, all progress will be lost." /> 
-    <meta property="og:site_name" content="MDWA" />
-
     <meta name="viewport" content="width=440, user-scalable=no">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-    <link rel="apple-touch-icon-precomposed" href="favicon.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="MDWA">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
+    <link href='css/inconsolata.css' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
     <div id="content">
@@ -61,7 +39,7 @@
                 <input type="checkbox" id="hardcore_mode" value="1"/><label for="hardcore_mode">Hardcore Mode</label>
             </div>
             <button id="start_button">Start</button>
-            <div class="subtitle"><button id="show_help" class="text">Help</button> | <a class='text' href="https://twitter.com/intent/tweet?text=I+just+survived+the+Most+Dangerous+Writing+App!+%23MDWA&url=http%3A%2F%2Fwww.themostdangerouswritingapp.com&via=maebert">Tell your friends</a></div>
+            <div class="subtitle"><button id="show_help" class="text">Help</button> | <a class='text' href="https://twitter.com/intent/tweet?text=I+just+survived+the+Most+Dangerous+Writing+App!+%23MDWA&url=http%3A%2F%2Fwww.themostdangerouswritingapp.com&via=maebert" target='_blank'>Tell your friends</a></div>
             <div class="below_container" id="author">Made with &#9829; by <a href="https://www.twitter.com/maebert">Manuel Ebert</a>.</div>
             <div style="display: none;" class="below_container" id="affiliate_mac">On a Mac? Check out <a class="mac" href="https://itunes.apple.com/us/app/flowstate/id1051600144?ls=1&mt=12" target="_blank">Flowstate</a>!</div>
             <div style="display: none;" class="below_container" id="affiliate_ios">Got an iPhone? Check out <a class="ios" href="https://itunes.apple.com/us/app/flowstate/id1060276201?ls=1&mt=8" target="_blank">Flowstate</a>!</div>
@@ -78,23 +56,14 @@
                 The Most Dangerous Writing App is designed to shut down your inner editor and get you into a state of flow.<br><br>
                 If you stop typing for more than five seconds, all progress will be lost.<br><br>
                 Because 'tis better to have written and lost, than never to have written at all.<br><br>
-                MDWA was written by <a href="https://www.twitter.com/maebert" target="_blank" title="Manuel Ebert">Manuel Ebert</a> and is <a title="MDWA on Github" target="_blank" href="https://www.github.com/maebert/themostdangerouswritingapp">open source</a>.<br><br>
-                There are currently <span class="realtimeuserscounter"></span> writers using this app.
+                MDWA was written by <a href="https://www.twitter.com/maebert" target="_blank" title="Manuel Ebert">Manuel Ebert</a> and is <a title="MDWA on Github" target="_blank" href="https://www.github.com/maebert/themostdangerouswritingapp">open source</a>.
             </div>
             <button id="hide_help">Got it.</button>
         </div>
     </div>
     <script type="text/javascript" src="main.js"></script>
-    <script src="https://realtimeusers.bycontrast.co/realtimeusers.js"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-74466223-1', 'auto');
-      ga('send', 'pageview');
-
+        require('./render');
     </script>
 </body>
 </html>
