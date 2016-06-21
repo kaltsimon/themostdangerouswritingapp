@@ -1,5 +1,6 @@
 {
   "name": "themostdangerouswritingapp",
+  "productName": "The Most Dangerous Writing App",
   "version": "1.0.0",
   "description": "The Most Dangerous Writing App",
   "main": "run.js",
