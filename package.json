@@ -5,7 +5,8 @@
   "description": "The Most Dangerous Writing App",
   "main": "run.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . --all --icon=Icon --out=out --overwrite"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
   },
   "homepage": "https://github.com/kaltsimon/themostdangerouswritingapp#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "electron": "^1.8.3",
+    "electron-packager": "^11.1.0"
   },
   "dependencies": {
     "jquery": "^3.0.0"
